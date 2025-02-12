@@ -1,0 +1,30 @@
+.Poster{display: flex;
+        width:100%;
+        padding:10px 0px;
+        height: 500px;
+        background-color: #f64f59;
+        justify-content: space-around;}
+
+.Poster_left{width:50%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;}
+
+.Poster_left>h1{color:white;}
+
+.Poster_left>h4{display: inline-block;
+                border:1px solid #12c2e9;
+                padding:10px 20px;
+                border-radius:10px;
+                color: white;
+                background-color: #c471ed;
+                cursor: pointer;}
+
+.Poster_right{
+      width: 50%;
+      height: 100%;
+}
+.Poster_right>img{width:80%;
+              height: 100%;
+              border-radius: 10px;}

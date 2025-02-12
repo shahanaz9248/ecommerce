@@ -1,0 +1,29 @@
+.LoginSignup{display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 70vh;}
+
+.loginForm{display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #f64f59;
+    padding: 30px 50px;
+   border-radius: 5px;
+   color:white;}
+
+.account{font-size: 12px;}
+
+.ls{color:white;
+    cursor: pointer;
+    font-size: 14px;
+    color:yellow;}
+
+input{outline: none;}
+
+.btn{font-size: larger;
+     background-color: #12c2e9;
+     color:white;
+     border: none;
+     padding: 5px 10px;
+     border-radius: 3px;
+     cursor: pointer;}

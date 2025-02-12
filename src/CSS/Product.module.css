@@ -1,0 +1,37 @@
+.Product{display: flex;
+         padding:20px 0px;
+         width:100%;
+         gap:20px;}
+
+.productimg{width:50%;
+           height: 700px;
+           padding-left: 10px;}
+
+.productName{font-size:large;}
+
+.productData{font-size:small;}
+
+.productdetails{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .priceDetails{
+      display: flex;
+      width:50%;
+      gap:20px;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  
+  .APrice{font-size: large;
+          color:lightslategray;}
+  
+  .OfferPrice{font-size:30px;
+              color:#f64f59 ;
+              font-weight: 700;}
+  
+  .productDiscount{font-size: larger;
+                color: #c471ed;}
+  
