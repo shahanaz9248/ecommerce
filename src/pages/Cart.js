@@ -2,6 +2,7 @@ import { useCart } from "./CartContext";
 import style from '../CSS/Cart.module.css'
 
 
+
 function Cart({item}) {
   const { cart } = useCart();
   const {removeFromCart}=useCart()
